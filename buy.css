@@ -1,0 +1,134 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.company-name {
+    color: black;
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+
+.navbar {
+    margin-top: 50px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.product-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0; /* Remove margin */
+    padding: 40px; /* Increased padding for better spacing */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width */
+    height: 100vh; /* Full height of the viewport */
+}
+
+.product-image {
+    flex: 1;
+    text-align: center; /* Center the image */
+}
+
+.product-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-details {
+    flex: 2; /* Make details take more space */
+    text-align: left; /* Left align the text */
+}
+
+.product-title {
+    font-size: 24px;
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #666;
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
+.specifications {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    margin-left: 20px
+}
+
+.specifications li {
+    padding: 5px 0;
+}
+
+.specifications-header{
+    margin-left: 20px;
+}
+.product-price {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0;
+    margin-left: 20px;
+}
+
+.whatsapp-link {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-link:hover {
+    background-color: #1DAE2B;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 20px;
+    color: #777;
+}

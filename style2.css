@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #f0f0f0;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+    color: #5a4e42;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #5a4e42;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.about-company {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.justified{
+    text-align: justify;
+    
+}
+
+
+h2 {
+    margin-top: 0;
+}
+
+.mission, .team {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member {
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.footer-logo {
+    display: flex;          /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically if needed */
+    margin: 20px 0;         /* Optional: add some margin */
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
